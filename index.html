@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test framset</title>
+</head>
+<frameset rows="50,*,300">
+    <frame src="runstr.html" name="marquee" noresize scrolling="no">
+        <frameset cols="30%,70%">
+            <frame src="galleries.html" name="galleries" noresize>
+                <frameset rows="50%,50%">
+                    <frameset cols="50%,50%">
+                        <frame src="blank.html" name="tretyakovka" noresize>
+                        <frame src="blank.html" name="ermitazh" noresize>
+                    </frameset>
+                    <frameset cols="50%,50%">
+                        <frame src="nav.html" name="nav" noresize>
+                        <frame src="thumbs.html" name="thumbs" noresize>
+                    </frameset>
+                </frameset>
+        </frameset>
+        <frameset cols="30%,35%,35%">
+            <frame src="col1.html" name="col1" noresize>
+            <frame src="col2.html" name="col2" noresize>
+            <frame src="col3.html" name="col3" noresize>
+        </frameset>
+</frameset>
+</html>
